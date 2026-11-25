@@ -43,7 +43,7 @@ Printed changes exactly one global, as measured with Gear Generator's own planne
 | v2_CD_Side | in place | 0.75 → 0.3 | Ø8 → Ø8.15 (z 15.761–21.753) | new `D-Flat`, across the flat 7.65 | none |
 | v2_CD_Spider | in place | 0.75 → 0.3 | Ø8 → Ø8.35 | round | none |
 | v2_FD_Pinion | in place | 0.675 → 0.3 | Ø8 → Ø8.15 (z 24.72–35.723) | new `D-Flat`, across the flat 7.65 | none |
-| v2_FD_Ring | in place | 0.675 → 0.3 | custom Ø8 hole kept | – | Sketch1, Sketch2, Cut-Extrude1 kept |
+| v2_FD_Ring | in place | 0.675 → 0.3 | custom hole Ø8 → Ø8.15 (z 18.112–24.46), 2026-11-25 | new `D-Flat` (config Default, front diff) and `D-Flat Rear` (config Rear, rear diff), across the flat 7.65, each lined up with the locked side gear's flat | Sketch1, Sketch2, Cut-Extrude1 kept |
 | v2_AX_Side | in place | 0.525 → 0.3 | Ø8 → Ø8.15 (z 11.232–15.227) | new `D-Flat`, across the flat 7.65 | none |
 | v2_AX_Spider | in place | 0.525 → 0.3 | Ø8 → Ø8.35 | round | none |
 | v2_RangeHub | globals | 0.375 → 0.3 | mainshaft Ø8 untouched | – | Sketch1, Boss-Extrude1 kept |
@@ -59,9 +59,16 @@ Notes:
 - The `D-Flat` is an extruded boss named `D-Flat`, with its sketch `D-Flat Sketch` on the Front plane. A cut cannot make a D out of an existing round hole. The boss fills the segment beyond a vertical chord at x = 3.575 mm, from the bore's start to its end, and merges into the part (one body each).
 - Phase of the flat: the seed tooth-space sketch of each D gear is centred at 0°, on +X, as Gear Generator places its flats. So every flat faces the middle of a tooth space.
 - The flat's dimensions are numeric, not linked to globals.
-- No mesh loop closes between D-fixed gears. The sun is the only D gear on the input. CD_Side and the rear FD_Pinion do not mesh with each other. Each FD_Pinion and AX_Side pair is broken by the free ring. So the flats over-constrain nothing.
+- No mesh loop closes between D-fixed gears. The sun is the only D gear on the input. CD_Side and the rear FD_Pinion do not mesh with each other. Each axle ring is locked (Concentric1, lock rotation) to its neighbouring side gear and so, since 2026-11-25, D-fitted to the same half-shaft. The flats still over-constrain nothing: ring and side gear do not mesh with each other, the spiders spin on their pins, and the pinion is on its own shaft. Locking the ring to a side gear makes each axle diff a spool (both wheels turn together).
 - Chassis mate **"Hollow shaft locked in CD front side gear [replaces GearMate2]" is suppressed in all configurations**, because it used the tube's face. Nothing else was changed in any assembly.
 - No workbook was built or updated.
+
+### 2026-11-25: axle ring gears D-fitted
+The axle ring (`v2_FD_Ring`) is locked to the side gear beside it (front `v2_AX_Side-1`, rear `v2_AX_Side-2`), so it now has the side gear's D-bore. Measured in ring coordinates, the side gear's flat lies at −149.673° in the front diff and −14.533° in the rear diff. The 135.14° between them is not a whole number of tooth pitches, so one flat cannot line up with both without moving a gear. The ring therefore has two configurations:
+- **Default** (front diff): `D-Flat` at −149.673°; `D-Flat Rear` suppressed.
+- **Rear** (rear diff, component `v2_FD_Ring-1` now references it): `D-Flat Rear` at −14.533°; `D-Flat` suppressed.
+
+Measured: one body, bore Ø8.15, flat 3.575 from the axis over z 18.112–24.46, no feature errors in either configuration. In each diff, the ring's flat and the side gear's flat point the same way (0.000° apart). Mate errors: 0 in the front diff, the rear diff and the chassis, before and after. No gear moved. Saved: the ring and both diff sub-assemblies. The chassis and transfer case were left unsaved (they held the user's unsaved changes). Physically, either ring prints and works in either diff. The two configurations exist so that the CAD lines up.
 
 ## Step 5: verification
 - **References after close and reopen:** 98 components, all under the repo root (the virtual belt excepted). None suppressed, none lightweight.
@@ -98,7 +105,7 @@ Notes:
 4. **LoDog.** The Ø10 bore had nothing else in it and no bushing modelled. It is now Ø8.35 over its whole 24 mm, which needed the carrier sketch's `D4@Sketch1`.
 5. **LockDog** was taken as free on the rear output (round 8.35), following the brief's "free, joins future case". Change it if it is meant to be keyed.
 6. **Out of scope, left alone:**
-   - FD_Ring's custom Ø8 hole sits on the half-shaft with no clearance.
+   - FD_Ring's custom Ø8 hole sat on the half-shaft with no clearance. Since 2026-11-25 it is a D-bore (Ø8.15, 7.65 across the flat).
    - The planets' custom Ø6 holes run on Ø5.3 carrier pins (the brief said Ø3).
    - Sleeve_m1.25_N17 is in no assembly.
    - The workbooks still do not match the assemblies.
