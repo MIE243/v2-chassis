@@ -21,18 +21,21 @@ MIE243 low-cost teaching vehicle: a 4x4 drivetrain chassis (transfer case with p
 | `Differentials/v2_FinalDrive.SLDASM`, `v2_AxleDiff.SLDASM`, `v2_CentreDiff.SLDASM` | Gear Generator's original pair assemblies; reference only. |
 
 ## Modular layout (2026-11-25)
-`v2 Chassis Modular.SLDASM` is the modular top assembly. The original `v2 Chassis Assembly.SLDASM` and its sub-assemblies are kept unchanged for comparison. Full joint and mate details: [docs/MODULAR-JOINTS.md](docs/MODULAR-JOINTS.md).
-| Module | Contents | Configs | Held by (attached) |
+`v2 Chassis Modular.SLDASM` is the modular top assembly. The original `v2 Chassis Assembly.SLDASM` and its sub-assemblies are kept unchanged for comparison. Full details: [docs/MODULAR-JOINTS.md](docs/MODULAR-JOINTS.md).
+| Module | Contents | Configs | Placed by (attached) |
 | --- | --- | --- | --- |
-| `M0_Chassis` | empty frame, the anchor | Default | "M0 on origin" (origin coordinate mate) |
-| `M1_FrontAxle` | `v2_FrontDiff` (with `v2_FrontDiff_Axle`) + `v2_Steering` | Default, Demo 4H straight | joint J5 + roll to M0 |
-| `M2_Motor` | gearmotor | Default | "M2 on chassis" (origin mate to M0) |
-| `M3_RangeBox` | input dog, sun, planets, ring, carrier, LoDog, range hub, range sleeve | H / N / L | "M3 on chassis" (origin mate to M0) |
-| `M4_FrontDrive` | `v2_M2M4_Shaft`, mode hub (Ø14 tube), mode sleeve, front dog, sprockets, chain | 2WD / 4WD | joint J1 + roll |
-| `M5_CentreDiff` | centre diff, cross pin in `v2_CD_Carrier`, lock set | Default / Open / Locked / Detach | joint J2 (+ J3) + roll |
-| `M6_RearAxle` | `v2_RearDiff`, `v2_RearDiff_Axle`, rear wheels | Default, Demo 4H straight | joint J4 + roll |
+| `M0_Chassis` | empty frame, the anchor | Default | "M0 on origin" |
+| `M1_FrontAxle` | `v2_FrontDiff` (with `v2_FrontDiff_Axle`) + `v2_Steering` | Default, Demo 4H straight, Detach | "M1 on M4" |
+| `M2_Motor` | gearmotor | Default | "M2 on chassis" |
+| `M3_RangeBox` | input dog, sun, planets, ring, carrier, LoDog, range hub, range sleeve | H / N / L / Detach | "M3 on chassis" |
+| `M4_FrontDrive` | `v2_M2M4_Shaft`, mode hub (Ø14 tube), mode sleeve, front dog, sprockets, chain | 2WD / 4WD / Detach | "M4 on M3" |
+| `M5_CentreDiff` | centre diff, cross pin in `v2_CD_Carrier`, lock set | Default / Open / Locked / Detach | "M5 on M4" |
+| `M6_RearAxle` | `v2_RearDiff`, `v2_RearDiff_Axle`, rear wheels | Default, Demo 4H straight, Detach | "M6 on M5" |
 
-Modules touch each other only at the shaft joints (male tongue in female slot). Top configurations: **Default** and **Demo 4H straight** are attached (joints engaged). **Detach** disengages every joint: every module except M0 slides in +Y only, and every tongue and slot is held vertical (M3 N, M4 2WD, M5 Detach). Positions are not stored per configuration: drag modules up in Detach; switching back to Default reseats them.
+- Modules are placed by origin coordinate mates to their neighbour, never through faces of spinning parts, because that jams SolidWorks' solver. The shaft joints J1–J5 carry rotation only ("Jn tongue").
+- **Default** and **Demo 4H straight** are attached; the drivetrain turns by hand from any shaft or wheel.
+- **Detach:** neighbour mates are off. Every module except M0 is rigid and slides in +Y only, with every tongue held vertical by the module's own Detach configuration.
+- M3's planetary uses "Epicyclic: sun drives carrier (29:84 same way)". The planet ↔ ring gear mate is suppressed, because it locked the train.
 
 ## Standing rules
 - **SolidWorks 2024 only.** Never save a file from SolidWorks 2026: the team opens these in 2024.
