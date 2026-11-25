@@ -20,6 +20,19 @@ MIE243 low-cost teaching vehicle: a 4x4 drivetrain chassis (transfer case with p
 | `Steering/v2_Steering.SLDASM` | Front axles + U-joints. Config "Straight (demo)". |
 | `Differentials/v2_FinalDrive.SLDASM`, `v2_AxleDiff.SLDASM`, `v2_CentreDiff.SLDASM` | Gear Generator's original pair assemblies; reference only. |
 
+## Modular layout (2026-11-25)
+`v2 Chassis Modular.SLDASM` is the modular top assembly. It holds six modules from `Modules/`. Each module is placed by one origin-to-origin coordinate mate ("M1 on origin" …), is not fixed, and is solved as flexible in both top configurations (Default, Demo 4H straight). The original `v2 Chassis Assembly.SLDASM` and its sub-assemblies are kept unchanged for comparison.
+| Module | Contents | Configs | Made from |
+| --- | --- | --- | --- |
+| `M1_FrontAxle` | `v2_FrontDiff` + `v2_Steering` | Default, Demo 4H straight (steering straight) | chassis copy |
+| `M2_Motor` | gearmotor | Default | chassis copy |
+| `M3_RangeBox` | input dog, sun, planets, ring, carrier, LoDog, range hub (mainshaft), range sleeve | H / N / L (range sleeve 55.5 / 48 / 40.5) | transfer case copy |
+| `M4_FrontDrive` | mode hub (Ø14 tube), mode sleeve, front dog, both sprockets, chain + belt | 2WD / 4WD (mode sleeve 84.5 / 90.5) | transfer case copy |
+| `M5_CentreDiff` | centre diff and lock set | Default / Open / Locked | centre diff copy |
+| `M6_RearAxle` | `v2_RearDiff` + both rear wheels | Default, Demo 4H straight | chassis copy |
+
+Top-level mates between modules: "Rear output shaft locked in rear pinion" (M6 ↔ M5), "Front output shaft locked in front pinion" (M4 ↔ M1), "Cross pin parallel to spider axis" (M3 RangeHub Cross Pin Plane ∥ M5 carrier Right Plane). Top 2H/4H/N/4L = M3 H/H/N/L with M4 2WD/4WD/4WD/4WD. The top only has Default (2H) and Demo 4H straight so far.
+
 ## Standing rules
 - **SolidWorks 2024 only.** Never save a file from SolidWorks 2026: the team opens these in 2024.
 - **One SolidWorks instance.** No mouse or keyboard control. Drive SolidWorks through SW-Agent where it covers the operation, otherwise native COM (pywin32) from a dedicated STA thread on Windows. Launch Windows processes hidden (`powershell Start-Process -WindowStyle Hidden`); never `cmd.exe /c start "title"` (it pops a dialog on the user's screen).
