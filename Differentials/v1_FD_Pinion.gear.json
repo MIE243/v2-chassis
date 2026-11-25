@@ -1,0 +1,340 @@
+{
+  "document": {
+    "path": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Differentials\\v1_FD_Pinion.SLDPRT",
+    "title": "v1_FD_Pinion.SLDPRT"
+  },
+  "gear": {
+    "assembly": "",
+    "centre_distance": "",
+    "created": "2026-11-15T23:53:11Z",
+    "derived": {
+      "addendum": 3.02625,
+      "bore": 8.0,
+      "cone_distance": 37.73364712030895,
+      "crown_to_apex": 32.39661985661825,
+      "d": 33.75,
+      "da": 39.163520573526995,
+      "dedendum": 1.89675,
+      "dedendum_angle": 2.877653880720195,
+      "delta": 26.56505117707799,
+      "delta_mate": 63.43494882292201,
+      "face_angle": 31.787969604368172,
+      "face_width": 12.0,
+      "form": "cone",
+      "mate_addendum": 1.4737500000000001,
+      "mate_dedendum": 3.44925,
+      "mate_dedendum_angle": 5.222918427290183,
+      "mate_teeth": 30,
+      "module": 2.25,
+      "overrun": 2.25,
+      "pressure_angle_deg": 20.0,
+      "root_angle": 23.687397296357794,
+      "section": {
+        "alpha": 0.3490658503988659,
+        "backlash": 0.6749999999999999,
+        "backlash_typed": false,
+        "bore": 0.0,
+        "d": 37.73364712030895,
+        "da": 43.786147120308954,
+        "db": 35.45802975429377,
+        "df": 33.94014712030895,
+        "face_width": 12.0,
+        "fillet": 0.855,
+        "fillet_typed": false,
+        "flank_arc_radius": 6.452833698144137,
+        "flank_start_d": 36.50514712030895,
+        "form_d": 35.45802975429377,
+        "h": 4.923,
+        "inv_alpha": 0.014904383867336446,
+        "module": 2.25,
+        "n_min": 17.09726434082606,
+        "p": 7.0685834705770345,
+        "phi": 0.08167329215139238,
+        "pressure_angle_deg": 20.0,
+        "psi_s": 0.09657767601872883,
+        "psi_t": 0.09075071680902386,
+        "s": 3.4243555239867964,
+        "shift": 0.0,
+        "space": 3.644227946590238,
+        "t1": 0.24481512450335227,
+        "t2": 0.9243664436669289,
+        "t_max": 0.7245068528956039,
+        "teeth": 16.77050983124842,
+        "tip_cap_d": 48.286147120308954,
+        "tip_thickness": 0.35611805997084905
+      },
+      "shaft_angle": 90.0,
+      "shift": 0.34500000000000003,
+      "teeth": 15,
+      "virtual_radius": 18.866823560154476,
+      "virtual_teeth": 16.77050983124842
+    },
+    "dimensions": [
+      "Addendum@Blank Sketch",
+      "Axis@Blank Sketch",
+      "Axis@Cone Sketch",
+      "Back@Blank Sketch",
+      "Centre@Heel Section Sketch",
+      "Centre@Toe Section Sketch",
+      "Cone@Blank Sketch",
+      "Count@Teeth",
+      "Face@Blank Sketch",
+      "Fillet@Heel Section Sketch",
+      "Fillet@Toe Section Sketch",
+      "Front Square@Blank Sketch",
+      "Front@Blank Sketch",
+      "Heel Cone@Cone Sketch",
+      "Heel Rim@Blank Sketch",
+      "Heel Square@Blank Sketch",
+      "Heel@Blank Sketch",
+      "Heel@Cone Sketch",
+      "Root Square@Blank Sketch",
+      "Root@Heel Section Sketch",
+      "Root@Toe Section Sketch",
+      "Toe Cone@Blank Sketch",
+      "Toe Cone@Cone Sketch",
+      "Toe Rim@Blank Sketch",
+      "Toe Square@Blank Sketch",
+      "Toe@Blank Sketch",
+      "Toe@Cone Sketch"
+    ],
+    "features": [
+      "Gear Axis",
+      "Blank Sketch",
+      "Blank",
+      "Cone Sketch",
+      "Heel Plane",
+      "Toe Plane",
+      "Heel Section Sketch",
+      "Toe Section Sketch",
+      "Tooth Space",
+      "Teeth"
+    ],
+    "kind": "bevel",
+    "last_built": "2026-11-15T23:53:11Z",
+    "last_updated": "",
+    "manual_steps": [
+      "Assign a material to v1_FD_Pinion; the build leaves it unset."
+    ],
+    "parametric": "full",
+    "partner": "",
+    "ratio": "",
+    "recipe": "A",
+    "record_id": "gear-760ddaee",
+    "spec": {
+      "backlash": "",
+      "bore": "8",
+      "face_width": "12",
+      "fillet": "",
+      "groove": "",
+      "hand": "right",
+      "helix_angle": "",
+      "kind": "bevel",
+      "mate_teeth": "30",
+      "module": "2.25",
+      "name": "v1_FD_Pinion",
+      "pressure_angle": "20",
+      "profile_shift": "0",
+      "recipe": "",
+      "rim": "",
+      "shaft_angle": "90",
+      "teeth": "15",
+      "teeth_side": "external"
+    },
+    "template": "",
+    "trig": "degrees",
+    "unsaved_since": 0.0,
+    "variables": [
+      [
+        "No. of Teeth",
+        "15"
+      ],
+      [
+        "Module",
+        "2.25"
+      ],
+      [
+        "Bore Diameter",
+        "8"
+      ],
+      [
+        "Pressure Angle",
+        "20"
+      ],
+      [
+        "Shaft Angle",
+        "90"
+      ],
+      [
+        "Mate Teeth",
+        "30"
+      ],
+      [
+        "Pitch Cone Angle",
+        "IIF ( ( \"Mate Teeth\" / \"No. of Teeth\" + cos ( \"Shaft Angle\" ) ) > 0 , atn ( sin ( \"Shaft Angle\" ) / ( \"Mate Teeth\" / \"No. of Teeth\" + cos ( \"Shaft Angle\" ) ) ) , 180 + atn ( sin ( \"Shaft Angle\" ) / ( \"Mate Teeth\" / \"No. of Teeth\" + cos ( \"Shaft Angle\" ) ) ) )"
+      ],
+      [
+        "Mate Cone Angle",
+        "\"Shaft Angle\" - \"Pitch Cone Angle\""
+      ],
+      [
+        "Addendum",
+        "IIF ( \"No. of Teeth\" >= \"Mate Teeth\" , 0.54 * \"Module\" + 0.46 * \"Module\" / ( ( \"No. of Teeth\" * cos ( \"Mate Cone Angle\" ) ) / ( \"Mate Teeth\" * cos ( \"Pitch Cone Angle\" ) ) ) , 2 * \"Module\" - ( 0.54 * \"Module\" + 0.46 * \"Module\" / ( ( \"Mate Teeth\" * cos ( \"Pitch Cone Angle\" ) ) / ( \"No. of Teeth\" * cos ( \"Mate Cone Angle\" ) ) ) ) )"
+      ],
+      [
+        "Outer Diameter",
+        "\"No. of Teeth\" * \"Module\" + 2 * \"Addendum\" * cos ( \"Pitch Cone Angle\" )"
+      ],
+      [
+        "Pitch Diameter",
+        "\"No. of Teeth\" * \"Module\""
+      ],
+      [
+        "Backlash",
+        "0.3 * \"Module\""
+      ],
+      [
+        "Arc Length",
+        "( ( \"Module\" * pi ) / 2 + \"Backlash\" - 2 * ( \"Addendum\" - \"Module\" ) * tan ( \"Pressure Angle\" ) )"
+      ],
+      [
+        "Fillet Radius",
+        "0.38 * \"Module\""
+      ],
+      [
+        "Mate Addendum",
+        "2 * \"Module\" - \"Addendum\""
+      ],
+      [
+        "Dedendum",
+        "2.188 * \"Module\" - \"Addendum\""
+      ],
+      [
+        "Tooth Depth",
+        "\"Addendum\" + \"Dedendum\""
+      ],
+      [
+        "Mate Dedendum",
+        "2.188 * \"Module\" - \"Mate Addendum\""
+      ],
+      [
+        "Face Width",
+        "12"
+      ],
+      [
+        "Cone Distance",
+        "\"Pitch Diameter\" / ( 2 * sin ( \"Pitch Cone Angle\" ) )"
+      ],
+      [
+        "Dedendum Angle",
+        "atn ( \"Dedendum\" / \"Cone Distance\" )"
+      ],
+      [
+        "Mate Dedendum Angle",
+        "atn ( \"Mate Dedendum\" / \"Cone Distance\" )"
+      ],
+      [
+        "Face Angle",
+        "\"Pitch Cone Angle\" + \"Mate Dedendum Angle\""
+      ],
+      [
+        "Root Angle",
+        "\"Pitch Cone Angle\" - \"Dedendum Angle\""
+      ],
+      [
+        "Overrun",
+        "\"Module\""
+      ],
+      [
+        "Back Cone Pitch Diameter",
+        "\"Pitch Diameter\" / cos ( \"Pitch Cone Angle\" )"
+      ],
+      [
+        "Back Cone Outer Diameter",
+        "\"Back Cone Pitch Diameter\" + 2 * \"Addendum\""
+      ],
+      [
+        "Root Diameter",
+        "\"Back Cone Outer Diameter\" - 2 * \"Tooth Depth\""
+      ],
+      [
+        "Base Diameter",
+        "\"Back Cone Pitch Diameter\" * cos ( \"Pressure Angle\" )"
+      ],
+      [
+        "Base Radius",
+        "\"Base Diameter\" / 2"
+      ],
+      [
+        "Tooth Thickness",
+        "\"Module\" * pi - \"Arc Length\""
+      ],
+      [
+        "Half Space Angle",
+        "( \"Arc Length\" / \"Back Cone Pitch Diameter\" ) * 180 / pi"
+      ],
+      [
+        "Involute Fn",
+        "tan ( \"Pressure Angle\" ) - \"Pressure Angle\" * pi / 180"
+      ],
+      [
+        "Flank Offset",
+        "\"Arc Length\" / \"Back Cone Pitch Diameter\" - \"Involute Fn\""
+      ],
+      [
+        "Tip Cap Diameter",
+        "\"Back Cone Outer Diameter\" + 2 * \"Module\""
+      ],
+      [
+        "Flank Start Diameter",
+        "IIF ( \"Base Diameter\" >= ( \"Root Diameter\" + 3 * \"Fillet Radius\" ) , \"Base Diameter\" , \"Root Diameter\" + 3 * \"Fillet Radius\" )"
+      ],
+      [
+        "Involute t1",
+        "( abs ( ( \"Flank Start Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+      ],
+      [
+        "Involute t2",
+        "( abs ( ( \"Tip Cap Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+      ],
+      [
+        "Flank Arc Radius",
+        "( \"Back Cone Pitch Diameter\" / 2 ) * sin ( \"Pressure Angle\" )"
+      ],
+      [
+        "Flank Centre Angle",
+        "\"Half Space Angle\" + \"Pressure Angle\""
+      ],
+      [
+        "Heel Distance",
+        "\"Cone Distance\" + \"Overrun\""
+      ],
+      [
+        "Toe Distance",
+        "\"Cone Distance\" - \"Face Width\" - \"Overrun\""
+      ],
+      [
+        "Heel Scale",
+        "\"Heel Distance\" / \"Cone Distance\""
+      ],
+      [
+        "Toe Scale",
+        "\"Toe Distance\" / \"Cone Distance\""
+      ],
+      [
+        "Heel Virtual Radius",
+        "\"Heel Distance\" * tan ( \"Pitch Cone Angle\" )"
+      ],
+      [
+        "Toe Virtual Radius",
+        "\"Toe Distance\" * tan ( \"Pitch Cone Angle\" )"
+      ]
+    ],
+    "workbook": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Differentials\\v1_FinalDrive.xlsx",
+    "workbook_gears": [
+      "Pinion"
+    ]
+  },
+  "schemaVersion": 1,
+  "writtenBy": "gear-generator 0.3.2"
+}

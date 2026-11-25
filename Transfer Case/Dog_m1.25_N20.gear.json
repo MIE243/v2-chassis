@@ -1,0 +1,201 @@
+{
+  "document": {
+    "path": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Dog_m1.25_N20.SLDPRT",
+    "title": "Dog_m1.25_N20.SLDPRT"
+  },
+  "gear": {
+    "assembly": "",
+    "centre_distance": "",
+    "created": "2026-11-15T23:42:18Z",
+    "derived": {
+      "alpha": 0.3490658503988659,
+      "backlash": 0.375,
+      "backlash_typed": false,
+      "bore": 14.0,
+      "d": 25.0,
+      "da": 27.5,
+      "db": 23.49231551964771,
+      "df": 21.5,
+      "face_width": 5.0,
+      "fillet": 0.475,
+      "fillet_typed": false,
+      "flank_arc_radius": 4.2752517915708586,
+      "flank_start_d": 23.49231551964771,
+      "form_d": 23.525070692031544,
+      "h": 3.0,
+      "inv_alpha": 0.014904383867336446,
+      "module": 1.25,
+      "n_min": 17.09726434082606,
+      "p": 3.9269908169872414,
+      "phi": 0.07863543247240838,
+      "pressure_angle_deg": 20.0,
+      "psi_s": 0.09353981633974483,
+      "psi_t": 0.06353981633974483,
+      "s": 1.5884954084936207,
+      "shift": 0.0,
+      "space": 2.3384954084936207,
+      "t1": 0.0,
+      "t2": 0.7942059161588909,
+      "t_max": 0.6085178231017319,
+      "teeth": 20,
+      "tip_cap_d": 30.0,
+      "tip_thickness": 0.4560999807140548
+    },
+    "dimensions": [
+      "Bore@Bore Sketch",
+      "Count@Teeth",
+      "Fillet@Tooth Space Sketch",
+      "OD@Blank Sketch",
+      "Root@Tooth Space Sketch",
+      "Width@Blank"
+    ],
+    "features": [
+      "Gear Axis",
+      "Blank Sketch",
+      "Blank",
+      "Tooth Space Sketch",
+      "Tooth Space",
+      "Teeth",
+      "Bore Sketch",
+      "Bore"
+    ],
+    "kind": "dog",
+    "last_built": "2026-11-15T23:42:18Z",
+    "last_updated": "",
+    "manual_steps": [
+      "Assign a material to Dog_m1.25_N20; the build leaves it unset."
+    ],
+    "parametric": "full",
+    "partner": "",
+    "ratio": "",
+    "recipe": "A",
+    "record_id": "gear-cf8a1809",
+    "spec": {
+      "backlash": "",
+      "bore": "14",
+      "face_width": "5",
+      "fillet": "",
+      "groove": "",
+      "hand": "right",
+      "helix_angle": "",
+      "kind": "dog",
+      "mate_teeth": "",
+      "module": "1.25",
+      "name": "",
+      "pressure_angle": "20",
+      "profile_shift": "0",
+      "recipe": "",
+      "rim": "",
+      "shaft_angle": "90",
+      "teeth": "20",
+      "teeth_side": "external"
+    },
+    "template": "",
+    "trig": "degrees",
+    "unsaved_since": 0.0,
+    "variables": [
+      [
+        "No. of Teeth",
+        "20"
+      ],
+      [
+        "Module",
+        "1.25"
+      ],
+      [
+        "Bore Diameter",
+        "14"
+      ],
+      [
+        "Pressure Angle",
+        "20"
+      ],
+      [
+        "Outer Diameter",
+        "( \"No. of Teeth\" + 2 ) * \"Module\""
+      ],
+      [
+        "Pitch Diameter",
+        "\"No. of Teeth\" * \"Module\""
+      ],
+      [
+        "Backlash",
+        "0.3 * \"Module\""
+      ],
+      [
+        "Arc Length",
+        "( ( \"Module\" * pi ) / 2 + \"Backlash\" )"
+      ],
+      [
+        "Fillet Radius",
+        "0.38 * \"Module\""
+      ],
+      [
+        "Tooth Depth",
+        "IIF ( \"Module\" <= 1.25 , \"Module\" * 2.4 , \"Module\" * 2.25 )"
+      ],
+      [
+        "Face Width",
+        "5"
+      ],
+      [
+        "Root Diameter",
+        "\"Outer Diameter\" - 2 * \"Tooth Depth\""
+      ],
+      [
+        "Base Diameter",
+        "\"Pitch Diameter\" * cos ( \"Pressure Angle\" )"
+      ],
+      [
+        "Base Radius",
+        "\"Base Diameter\" / 2"
+      ],
+      [
+        "Tooth Thickness",
+        "\"Module\" * pi - \"Arc Length\""
+      ],
+      [
+        "Half Space Angle",
+        "( \"Arc Length\" / \"Pitch Diameter\" ) * 180 / pi"
+      ],
+      [
+        "Involute Fn",
+        "tan ( \"Pressure Angle\" ) - \"Pressure Angle\" * pi / 180"
+      ],
+      [
+        "Flank Offset",
+        "\"Arc Length\" / \"Pitch Diameter\" - \"Involute Fn\""
+      ],
+      [
+        "Tip Cap Diameter",
+        "\"Outer Diameter\" + 2 * \"Module\""
+      ],
+      [
+        "Flank Start Diameter",
+        "IIF ( \"Base Diameter\" >= ( \"Root Diameter\" + 3 * \"Fillet Radius\" ) , \"Base Diameter\" , \"Root Diameter\" + 3 * \"Fillet Radius\" )"
+      ],
+      [
+        "Involute t1",
+        "( abs ( ( \"Flank Start Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+      ],
+      [
+        "Involute t2",
+        "( abs ( ( \"Tip Cap Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+      ],
+      [
+        "Flank Arc Radius",
+        "( \"Pitch Diameter\" / 2 ) * sin ( \"Pressure Angle\" )"
+      ],
+      [
+        "Flank Centre Angle",
+        "\"Half Space Angle\" + \"Pressure Angle\""
+      ]
+    ],
+    "workbook": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v1_TransferCase.xlsx",
+    "workbook_gears": [
+      "FrontDog"
+    ]
+  },
+  "schemaVersion": 1,
+  "writtenBy": "gear-generator 0.3.2"
+}
