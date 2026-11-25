@@ -1,6 +1,6 @@
 {
   "document": {
-    "path": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Ring_m1.25_N55.SLDPRT",
+    "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Ring_m1.25_N55.SLDPRT",
     "title": "Ring_m1.25_N55.SLDPRT"
   },
   "gear": {
@@ -9,7 +9,7 @@
     "created": "2026-11-15T23:42:18Z",
     "derived": {
       "alpha": 0.3490658503988659,
-      "backlash": 0.375,
+      "backlash": 0.3,
       "backlash_typed": false,
       "bore": 0.0,
       "d": 68.75,
@@ -25,19 +25,20 @@
       "h": 3.0,
       "inv_alpha": 0.014904383867336446,
       "module": 1.25,
+      "nozzle": 0.4,
       "p": 3.9269908169872414,
-      "phi": -0.04891886253633457,
+      "phi": -0.047827953445425474,
       "pressure_angle_deg": 20.0,
-      "psi_s": 0.03401447866899812,
+      "psi_s": 0.03292356957808903,
       "rim": 79.75,
       "rim_typed": false,
-      "s": 1.5884954084936207,
-      "space": 2.3384954084936207,
+      "s": 1.6634954084936209,
+      "space": 2.2634954084936205,
       "t1": 0.11090997345635512,
       "t2": 0.4809541332237421,
       "teeth": 55,
       "tip_cap_d": 63.75,
-      "tip_thickness": 0.794503216753455,
+      "tip_thickness": 0.8667759440261824,
       "transverse_module": 1.25
     },
     "dimensions": [
@@ -59,7 +60,7 @@
     ],
     "kind": "spur",
     "last_built": "2026-11-15T23:42:18Z",
-    "last_updated": "",
+    "last_updated": "2026-11-25T04:06:20Z",
     "manual_steps": [
       "Assign a material to Ring_m1.25_N55; the build leaves it unset."
     ],
@@ -80,7 +81,9 @@
       "mate_teeth": "",
       "module": "1.25",
       "name": "",
+      "nozzle": "",
       "pressure_angle": "20",
+      "process": "printed",
       "profile_shift": "0",
       "recipe": "",
       "rim": "",
@@ -114,7 +117,7 @@
       ],
       [
         "Backlash",
-        "0.3 * \"Module\""
+        "IIF ( \"Module\" <= 1 , 0.3 * \"Module\" , 0.3 )"
       ],
       [
         "Arc Length",
@@ -193,11 +196,11 @@
         "\"Half Space Angle\" - \"Pressure Angle\""
       ]
     ],
-    "workbook": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v1_TransferCase.xlsx",
+    "workbook": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_TransferCase.xlsx",
     "workbook_gears": [
       "Ring"
     ]
   },
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "writtenBy": "gear-generator 0.3.2"
 }

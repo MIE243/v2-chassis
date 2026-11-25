@@ -1,6 +1,6 @@
 {
   "document": {
-    "path": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Gear_m1.25_N29.SLDPRT",
+    "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Gear_m1.25_N29.SLDPRT",
     "title": "Gear_m1.25_N29.SLDPRT"
   },
   "gear": {
@@ -9,9 +9,9 @@
     "created": "2026-11-15T23:42:18Z",
     "derived": {
       "alpha": 0.3490658503988659,
-      "backlash": 0.375,
+      "backlash": 0.3,
       "backlash_typed": false,
-      "bore": 8.0,
+      "bore": 8.15,
       "d": 36.25,
       "da": 38.75,
       "db": 34.06385750348918,
@@ -26,20 +26,21 @@
       "inv_alpha": 0.014904383867336446,
       "module": 1.25,
       "n_min": 17.09726434082606,
+      "nozzle": 0.4,
       "p": 3.9269908169872414,
-      "phi": 0.04960583429800482,
+      "phi": 0.04753686878076343,
       "pressure_angle_deg": 20.0,
-      "psi_s": 0.06451021816534126,
-      "psi_t": 0.04382056299292747,
-      "s": 1.5884954084936207,
+      "psi_s": 0.062441252648099875,
+      "psi_t": 0.04588952851016885,
+      "s": 1.6634954084936209,
       "shift": 0.0,
-      "space": 2.3384954084936207,
+      "space": 2.2634954084936205,
       "t1": 0.08084666695151319,
       "t2": 0.6829541229408332,
       "t_max": 0.542276691472255,
       "teeth": 29,
       "tip_cap_d": 41.25,
-      "tip_thickness": 0.5170231008942183
+      "tip_thickness": 0.5971955146873202
     },
     "dimensions": [
       "Bore@Bore Sketch",
@@ -61,7 +62,7 @@
     ],
     "kind": "spur",
     "last_built": "2026-11-15T23:42:18Z",
-    "last_updated": "",
+    "last_updated": "2026-11-25T04:04:54Z",
     "manual_steps": [
       "Assign a material to Gear_m1.25_N29; the build leaves it unset."
     ],
@@ -72,7 +73,7 @@
     "record_id": "gear-b52106ca",
     "spec": {
       "backlash": "",
-      "bore": "8",
+      "bore": "8.15",
       "face_width": "10",
       "fillet": "",
       "groove": "",
@@ -82,7 +83,9 @@
       "mate_teeth": "",
       "module": "1.25",
       "name": "",
+      "nozzle": "",
       "pressure_angle": "20",
+      "process": "printed",
       "profile_shift": "0",
       "recipe": "",
       "rim": "",
@@ -104,7 +107,7 @@
       ],
       [
         "Bore Diameter",
-        "8"
+        "8.15"
       ],
       [
         "Pressure Angle",
@@ -120,7 +123,7 @@
       ],
       [
         "Backlash",
-        "0.3 * \"Module\""
+        "IIF ( \"Module\" <= 1 , 0.3 * \"Module\" , 0.3 )"
       ],
       [
         "Arc Length",
@@ -191,11 +194,11 @@
         "\"Half Space Angle\" + \"Pressure Angle\""
       ]
     ],
-    "workbook": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v1_TransferCase.xlsx",
+    "workbook": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_TransferCase.xlsx",
     "workbook_gears": [
       "Sun"
     ]
   },
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "writtenBy": "gear-generator 0.3.2"
 }

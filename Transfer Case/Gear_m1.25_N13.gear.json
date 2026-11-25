@@ -1,6 +1,6 @@
 {
   "document": {
-    "path": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Gear_m1.25_N13.SLDPRT",
+    "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Gear_m1.25_N13.SLDPRT",
     "title": "Gear_m1.25_N13.SLDPRT"
   },
   "gear": {
@@ -9,7 +9,7 @@
     "created": "2026-11-15T23:42:18Z",
     "derived": {
       "alpha": 0.3490658503988659,
-      "backlash": 0.375,
+      "backlash": 0.3,
       "backlash_typed": false,
       "bore": 0.0,
       "d": 16.25,
@@ -26,20 +26,21 @@
       "inv_alpha": 0.014904383867336446,
       "module": 1.25,
       "n_min": 17.09726434082606,
+      "nozzle": 0.4,
       "p": 3.9269908169872414,
-      "phi": 0.12900302588611715,
+      "phi": 0.12438764127073251,
       "pressure_angle_deg": 20.0,
-      "psi_s": 0.1439074097534536,
-      "psi_t": 0.09775356359960742,
-      "s": 1.5884954084936207,
+      "psi_s": 0.13929202513806896,
+      "psi_t": 0.10236894821499205,
+      "s": 1.6634954084936209,
       "shift": 0.0,
-      "space": 2.3384954084936207,
+      "space": 2.2634954084936205,
       "t1": 0.0,
       "t2": 0.9677799941432129,
       "t_max": 0.7125532247208491,
       "teeth": 13,
       "tip_cap_d": 21.25,
-      "tip_thickness": 0.36011398867142
+      "tip_thickness": 0.4466524502098808
     },
     "dimensions": [
       "Count@Teeth",
@@ -58,7 +59,7 @@
     ],
     "kind": "spur",
     "last_built": "2026-11-15T23:42:18Z",
-    "last_updated": "",
+    "last_updated": "2026-11-25T04:05:54Z",
     "manual_steps": [
       "Assign a material to Gear_m1.25_N13; the build leaves it unset."
     ],
@@ -79,7 +80,9 @@
       "mate_teeth": "",
       "module": "1.25",
       "name": "",
+      "nozzle": "",
       "pressure_angle": "20",
+      "process": "printed",
       "profile_shift": "0",
       "recipe": "",
       "rim": "",
@@ -117,7 +120,7 @@
       ],
       [
         "Backlash",
-        "0.3 * \"Module\""
+        "IIF ( \"Module\" <= 1 , 0.3 * \"Module\" , 0.3 )"
       ],
       [
         "Arc Length",
@@ -188,11 +191,11 @@
         "\"Half Space Angle\" + \"Pressure Angle\""
       ]
     ],
-    "workbook": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v1_TransferCase.xlsx",
+    "workbook": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_TransferCase.xlsx",
     "workbook_gears": [
       "Pl"
     ]
   },
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "writtenBy": "gear-generator 0.3.2"
 }

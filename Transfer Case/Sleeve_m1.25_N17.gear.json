@@ -1,6 +1,6 @@
 {
   "document": {
-    "path": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Sleeve_m1.25_N17.SLDPRT",
+    "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Sleeve_m1.25_N17.SLDPRT",
     "title": "Sleeve_m1.25_N17.SLDPRT"
   },
   "gear": {
@@ -193,7 +193,7 @@
         "\"Half Space Angle\" - \"Pressure Angle\""
       ]
     ],
-    "workbook": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v1_TransferCase.xlsx",
+    "workbook": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_TransferCase.xlsx",
     "workbook_gears": [
       "RangeSlv"
     ]

@@ -1,0 +1,2752 @@
+{
+  "assembly": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_TransferCase.SLDASM",
+  "digest": "66059ace44f8429bf547a594286080c0a100545284ffdc0644c5e0c4d20ac03c",
+  "earlier": [],
+  "gearbox": {
+    "assembly": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_TransferCase.SLDASM",
+    "assembly_template": "",
+    "built": "2026-11-15T23:42:18Z",
+    "carriers": [
+      {
+        "at": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axes": [
+          {
+            "axis": "Z+",
+            "axis_name": "Planet copy 1 Axis",
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "line": "",
+            "shaft": "Planet copy 1",
+            "sigma": 1,
+            "x": 26.25,
+            "x_global": "Planet copy 1 X",
+            "x_plane": "Planet copy 1 X Plane",
+            "x_side": "plus",
+            "y": 0.0,
+            "y_global": "",
+            "y_plane": "",
+            "y_side": "base",
+            "z": 0.0,
+            "z_global": "",
+            "z_plane": "",
+            "z_side": ""
+          },
+          {
+            "axis": "Z+",
+            "axis_name": "Planet copy 2 Axis",
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "line": "",
+            "shaft": "Planet copy 2",
+            "sigma": 1,
+            "x": -13.125,
+            "x_global": "Planet copy 2 X",
+            "x_plane": "Planet copy 2 X Plane",
+            "x_side": "minus",
+            "y": 22.733166849342,
+            "y_global": "Planet copy 2 Y",
+            "y_plane": "Planet copy 2 Y Plane",
+            "y_side": "plus",
+            "z": 0.0,
+            "z_global": "",
+            "z_plane": "",
+            "z_side": ""
+          },
+          {
+            "axis": "Z+",
+            "axis_name": "Planet copy 3 Axis",
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "line": "",
+            "shaft": "Planet copy 3",
+            "sigma": 1,
+            "x": -13.125,
+            "x_global": "Planet copy 3 X",
+            "x_plane": "Planet copy 3 X Plane",
+            "x_side": "minus",
+            "y": -22.733166849342,
+            "y_global": "Planet copy 3 Y",
+            "y_plane": "Planet copy 3 Y Plane",
+            "y_side": "minus",
+            "z": 0.0,
+            "z_global": "",
+            "z_plane": "",
+            "z_side": ""
+          }
+        ],
+        "component": "v2_TransferCase_Carrier_Carrier-1",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_TransferCase_Carrier_Carrier.SLDPRT",
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "shaft": "Carrier"
+      }
+    ],
+    "components": [
+      {
+        "at": [
+          0.0,
+          0.0,
+          5.5
+        ],
+        "frames": {
+          "2H": {
+            "at": [
+              0.0,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4H": {
+            "at": [
+              0.0,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4L": {
+            "at": [
+              0.0,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "N": {
+            "at": [
+              0.0,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "gear": "Sun",
+        "name": "Gear_m1.25_N29-1",
+        "of": "",
+        "part": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Gear_m1.25_N29.SLDPRT",
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "at": [
+          26.25,
+          0.0,
+          5.5
+        ],
+        "frames": {
+          "2H": {
+            "at": [
+              26.25,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              -4.440892098500626e-16,
+              0.0,
+              4.440892098500626e-16,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4H": {
+            "at": [
+              26.25,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              -4.440892098500626e-16,
+              0.0,
+              4.440892098500626e-16,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4L": {
+            "at": [
+              26.25,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              -4.440892098500626e-16,
+              0.0,
+              4.440892098500626e-16,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "N": {
+            "at": [
+              26.25,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              -4.440892098500626e-16,
+              0.0,
+              4.440892098500626e-16,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "gear": "Pl copy 1",
+        "name": "Gear_m1.25_N13-1",
+        "of": "Pl",
+        "part": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Gear_m1.25_N13.SLDPRT",
+        "rotation": [
+          1.0,
+          -4.440892098500626e-16,
+          0.0,
+          4.440892098500626e-16,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "at": [
+          -13.125,
+          22.733166849342,
+          5.5
+        ],
+        "frames": {
+          "2H": {
+            "at": [
+              -13.125,
+              22.733166849342,
+              5.5
+            ],
+            "rotation": [
+              0.8854560256532233,
+              -0.46472317204374297,
+              0.0,
+              0.46472317204374297,
+              0.8854560256532233,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4H": {
+            "at": [
+              -13.125,
+              22.733166849342,
+              5.5
+            ],
+            "rotation": [
+              0.8854560256532233,
+              -0.46472317204374297,
+              0.0,
+              0.46472317204374297,
+              0.8854560256532233,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4L": {
+            "at": [
+              -13.125,
+              22.733166849342,
+              5.5
+            ],
+            "rotation": [
+              0.8854560256532233,
+              -0.46472317204374297,
+              0.0,
+              0.46472317204374297,
+              0.8854560256532233,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "N": {
+            "at": [
+              -13.125,
+              22.733166849342,
+              5.5
+            ],
+            "rotation": [
+              0.8854560256532233,
+              -0.46472317204374297,
+              0.0,
+              0.46472317204374297,
+              0.8854560256532233,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "gear": "Pl copy 2",
+        "name": "Gear_m1.25_N13-2",
+        "of": "Pl",
+        "part": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Gear_m1.25_N13.SLDPRT",
+        "rotation": [
+          0.8854560256532233,
+          -0.46472317204374297,
+          0.0,
+          0.46472317204374297,
+          0.8854560256532233,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "at": [
+          -13.125,
+          -22.733166849342,
+          5.5
+        ],
+        "frames": {
+          "2H": {
+            "at": [
+              -13.125,
+              -22.733166849342,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              -2.886579864025407e-14,
+              0.0,
+              2.886579864025407e-14,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4H": {
+            "at": [
+              -13.125,
+              -22.733166849342,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              -2.886579864025407e-14,
+              0.0,
+              2.886579864025407e-14,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4L": {
+            "at": [
+              -13.125,
+              -22.733166849342,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              -2.886579864025407e-14,
+              0.0,
+              2.886579864025407e-14,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "N": {
+            "at": [
+              -13.125,
+              -22.733166849342,
+              5.5
+            ],
+            "rotation": [
+              1.0,
+              -2.886579864025407e-14,
+              0.0,
+              2.886579864025407e-14,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "gear": "Pl copy 3",
+        "name": "Gear_m1.25_N13-3",
+        "of": "Pl",
+        "part": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Gear_m1.25_N13.SLDPRT",
+        "rotation": [
+          1.0,
+          -2.886579864025407e-14,
+          0.0,
+          2.886579864025407e-14,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "at": [
+          0.0,
+          0.0,
+          5.5
+        ],
+        "frames": {
+          "2H": {
+            "at": [
+              0.0,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              0.9983691039261356,
+              -0.05708881086276809,
+              0.0,
+              0.05708881086276809,
+              0.9983691039261356,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4H": {
+            "at": [
+              0.0,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              0.9983691039261356,
+              -0.05708881086276809,
+              0.0,
+              0.05708881086276809,
+              0.9983691039261356,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4L": {
+            "at": [
+              0.0,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              0.9983691039261356,
+              -0.05708881086276809,
+              0.0,
+              0.05708881086276809,
+              0.9983691039261356,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "N": {
+            "at": [
+              0.0,
+              0.0,
+              5.5
+            ],
+            "rotation": [
+              0.9983691039261356,
+              -0.05708881086276809,
+              0.0,
+              0.05708881086276809,
+              0.9983691039261356,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "gear": "Ring",
+        "name": "Ring_m1.25_N55-1",
+        "of": "",
+        "part": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Ring_m1.25_N55.SLDPRT",
+        "rotation": [
+          0.9983691039261356,
+          -0.05708881086276809,
+          0.0,
+          0.05708881086276809,
+          0.9983691039261356,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "at": [
+          0.0,
+          0.0,
+          -34.5
+        ],
+        "frames": {
+          "2H": {
+            "at": [
+              0.0,
+              0.0,
+              -34.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4H": {
+            "at": [
+              0.0,
+              0.0,
+              -34.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4L": {
+            "at": [
+              0.0,
+              0.0,
+              -34.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "N": {
+            "at": [
+              0.0,
+              0.0,
+              -34.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "gear": "InDog",
+        "name": "v2_InDog-1",
+        "of": "",
+        "part": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_InDog.SLDPRT",
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "at": [
+          0.0,
+          0.0,
+          -19.5
+        ],
+        "frames": {
+          "2H": {
+            "at": [
+              0.0,
+              0.0,
+              -19.5
+            ],
+            "rotation": [
+              0.9324722294043558,
+              -0.3612416661871529,
+              0.0,
+              0.3612416661871529,
+              0.9324722294043558,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4H": {
+            "at": [
+              0.0,
+              0.0,
+              -19.5
+            ],
+            "rotation": [
+              0.9324722294043558,
+              -0.3612416661871529,
+              0.0,
+              0.3612416661871529,
+              0.9324722294043558,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4L": {
+            "at": [
+              0.0,
+              0.0,
+              -19.5
+            ],
+            "rotation": [
+              0.9324722294043558,
+              -0.3612416661871529,
+              0.0,
+              0.3612416661871529,
+              0.9324722294043558,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "N": {
+            "at": [
+              0.0,
+              0.0,
+              -19.5
+            ],
+            "rotation": [
+              0.9324722294043558,
+              -0.3612416661871529,
+              0.0,
+              0.3612416661871529,
+              0.9324722294043558,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "gear": "LoDog",
+        "name": "v2_LoDog-1",
+        "of": "",
+        "part": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_LoDog.SLDPRT",
+        "rotation": [
+          0.9324722294043558,
+          -0.3612416661871529,
+          0.0,
+          0.3612416661871529,
+          0.9324722294043558,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "at": [
+          0.0,
+          0.0,
+          -34.5
+        ],
+        "frames": {
+          "2H": {
+            "at": [
+              0.0,
+              0.0,
+              -34.5
+            ],
+            "rotation": [
+              0.9829730996839018,
+              -0.18374951781657034,
+              0.0,
+              0.18374951781657034,
+              0.9829730996839018,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4H": {
+            "at": [
+              0.0,
+              0.0,
+              -34.5
+            ],
+            "rotation": [
+              0.9829730996839018,
+              -0.18374951781657034,
+              0.0,
+              0.18374951781657034,
+              0.9829730996839018,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4L": {
+            "at": [
+              0.0,
+              0.0,
+              -24.5
+            ],
+            "rotation": [
+              0.9829730996839018,
+              -0.18374951781657034,
+              0.0,
+              0.18374951781657034,
+              0.9829730996839018,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "N": {
+            "at": [
+              0.0,
+              0.0,
+              -29.5
+            ],
+            "rotation": [
+              0.9829730996839018,
+              -0.18374951781657034,
+              0.0,
+              0.18374951781657034,
+              0.9829730996839018,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "gear": "RangeSlv",
+        "name": "Sleeve_m1.25_N17-1",
+        "of": "",
+        "part": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Sleeve_m1.25_N17.SLDPRT",
+        "rotation": [
+          0.9829730996839018,
+          -0.18374951781657034,
+          0.0,
+          0.18374951781657034,
+          0.9829730996839018,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "at": [
+          0.0,
+          0.0,
+          -90.5
+        ],
+        "frames": {
+          "2H": {
+            "at": [
+              0.0,
+              0.0,
+              -90.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4H": {
+            "at": [
+              0.0,
+              0.0,
+              -90.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4L": {
+            "at": [
+              0.0,
+              0.0,
+              -90.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "N": {
+            "at": [
+              0.0,
+              0.0,
+              -90.5
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "gear": "FrontDog",
+        "name": "Dog_m1.25_N20-1",
+        "of": "",
+        "part": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Dog_m1.25_N20.SLDPRT",
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "at": [
+          0.0,
+          0.0,
+          -85.5
+        ],
+        "frames": {
+          "2H": {
+            "at": [
+              0.0,
+              0.0,
+              -85.5
+            ],
+            "rotation": [
+              0.9876883405951378,
+              -0.15643446504023087,
+              0.0,
+              0.15643446504023087,
+              0.9876883405951378,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4H": {
+            "at": [
+              0.0,
+              0.0,
+              -90.5
+            ],
+            "rotation": [
+              0.9876883405951378,
+              -0.15643446504023087,
+              0.0,
+              0.15643446504023087,
+              0.9876883405951378,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "4L": {
+            "at": [
+              0.0,
+              0.0,
+              -90.5
+            ],
+            "rotation": [
+              0.9876883405951378,
+              -0.15643446504023087,
+              0.0,
+              0.15643446504023087,
+              0.9876883405951378,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "N": {
+            "at": [
+              0.0,
+              0.0,
+              -90.5
+            ],
+            "rotation": [
+              0.9876883405951378,
+              -0.15643446504023087,
+              0.0,
+              0.15643446504023087,
+              0.9876883405951378,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "gear": "ModeSlv",
+        "name": "Sleeve_m1.25_N20-1",
+        "of": "",
+        "part": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Sleeve_m1.25_N20.SLDPRT",
+        "rotation": [
+          0.9876883405951378,
+          -0.15643446504023087,
+          0.0,
+          0.15643446504023087,
+          0.9876883405951378,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    ],
+    "drag": [
+      "Sun"
+    ],
+    "fixed": [
+      "Ring"
+    ],
+    "kind": "motion",
+    "layout": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_TransferCase_Layout.SLDPRT",
+    "layout_component": "v2_TransferCase_Layout-1",
+    "mate_problems": [],
+    "mate_problems_digest": "",
+    "mates": [
+      {
+        "face_global": "",
+        "gears": [
+          "Sun"
+        ],
+        "kind": "axis",
+        "modes": [],
+        "name": "Sun on In Axis",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "In",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "Sun Face Z",
+        "gears": [
+          "Sun"
+        ],
+        "kind": "along",
+        "modes": [],
+        "name": "Sun along In",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "In",
+        "values": {},
+        "z_front": 5.5
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "Sun",
+          "InDog"
+        ],
+        "kind": "lock",
+        "modes": [],
+        "name": "InDog locked to Sun",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "Carrier carrier"
+        ],
+        "kind": "axis",
+        "modes": [],
+        "name": "Carrier carrier on Carrier Axis",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Carrier",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "Carrier carrier"
+        ],
+        "kind": "along",
+        "modes": [],
+        "name": "Carrier carrier along Carrier",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Carrier",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "Carrier carrier",
+          "LoDog"
+        ],
+        "kind": "lock",
+        "modes": [],
+        "name": "LoDog locked to Carrier carrier",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "Pl copy 1"
+        ],
+        "kind": "axis",
+        "modes": [],
+        "name": "Pl copy 1 on Planet copy 1 Axis",
+        "on": "Carrier carrier",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Planet copy 1",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "Pl Face Z",
+        "gears": [
+          "Pl copy 1"
+        ],
+        "kind": "along",
+        "modes": [],
+        "name": "Pl copy 1 along Planet copy 1",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Planet copy 1",
+        "values": {},
+        "z_front": 5.5
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "Pl copy 2"
+        ],
+        "kind": "axis",
+        "modes": [],
+        "name": "Pl copy 2 on Planet copy 2 Axis",
+        "on": "Carrier carrier",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Planet copy 2",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "Pl Face Z",
+        "gears": [
+          "Pl copy 2"
+        ],
+        "kind": "along",
+        "modes": [],
+        "name": "Pl copy 2 along Planet copy 2",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Planet copy 2",
+        "values": {},
+        "z_front": 5.5
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "Pl copy 3"
+        ],
+        "kind": "axis",
+        "modes": [],
+        "name": "Pl copy 3 on Planet copy 3 Axis",
+        "on": "Carrier carrier",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Planet copy 3",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "Pl Face Z",
+        "gears": [
+          "Pl copy 3"
+        ],
+        "kind": "along",
+        "modes": [],
+        "name": "Pl copy 3 along Planet copy 3",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Planet copy 3",
+        "values": {},
+        "z_front": 5.5
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "RangeSlv"
+        ],
+        "kind": "axis",
+        "modes": [],
+        "name": "RangeSlv on Rear Axis",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Rear",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "RangeSlv"
+        ],
+        "kind": "slide",
+        "modes": [],
+        "name": "RangeSlv along Rear",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Rear",
+        "values": {
+          "2H": -34.5,
+          "4H": -34.5,
+          "4L": -24.5,
+          "N": -29.5
+        },
+        "z_front": -34.5
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "ModeSlv"
+        ],
+        "kind": "axis",
+        "modes": [],
+        "name": "ModeSlv on Rear Axis",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Rear",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "ModeSlv"
+        ],
+        "kind": "slide",
+        "modes": [],
+        "name": "ModeSlv along Rear",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "Rear",
+        "values": {
+          "2H": -85.5,
+          "4H": -90.5,
+          "4L": -90.5,
+          "N": -90.5
+        },
+        "z_front": -85.5
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "RangeSlv",
+          "ModeSlv"
+        ],
+        "kind": "spline",
+        "modes": [],
+        "name": "ModeSlv splined to RangeSlv",
+        "on": "",
+        "plane": "front",
+        "ratio": [
+          1,
+          1
+        ],
+        "sense": -1,
+        "shaft": "",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "FrontDog"
+        ],
+        "kind": "axis",
+        "modes": [],
+        "name": "FrontDog on FrontDrv Axis",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "FrontDrv",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "FrontDog Face Z",
+        "gears": [
+          "FrontDog"
+        ],
+        "kind": "along",
+        "modes": [],
+        "name": "FrontDog along FrontDrv",
+        "on": "",
+        "plane": "front",
+        "ratio": [],
+        "sense": 0,
+        "shaft": "FrontDrv",
+        "values": {},
+        "z_front": -90.5
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "Sun",
+          "Pl copy 1"
+        ],
+        "kind": "mesh",
+        "modes": [],
+        "name": "Sun meshes Pl copy 1",
+        "on": "",
+        "plane": "front",
+        "ratio": [
+          29,
+          13
+        ],
+        "sense": 1,
+        "shaft": "",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "Sun",
+          "Pl copy 2"
+        ],
+        "kind": "mesh",
+        "modes": [],
+        "name": "Sun meshes Pl copy 2",
+        "on": "",
+        "plane": "front",
+        "ratio": [
+          29,
+          13
+        ],
+        "sense": 1,
+        "shaft": "",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "Sun",
+          "Pl copy 3"
+        ],
+        "kind": "mesh",
+        "modes": [],
+        "name": "Sun meshes Pl copy 3",
+        "on": "",
+        "plane": "front",
+        "ratio": [
+          29,
+          13
+        ],
+        "sense": 1,
+        "shaft": "",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "Pl copy 1",
+          "Ring"
+        ],
+        "kind": "mesh",
+        "modes": [],
+        "name": "Pl copy 1 meshes Ring",
+        "on": "",
+        "plane": "front",
+        "ratio": [
+          13,
+          55
+        ],
+        "sense": -1,
+        "shaft": "",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "RangeSlv",
+          "InDog"
+        ],
+        "kind": "couple",
+        "modes": [
+          "2H",
+          "4H"
+        ],
+        "name": "RangeSlv engages InDog",
+        "on": "",
+        "plane": "front",
+        "ratio": [
+          1,
+          1
+        ],
+        "sense": -1,
+        "shaft": "",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "RangeSlv",
+          "LoDog"
+        ],
+        "kind": "couple",
+        "modes": [
+          "4L"
+        ],
+        "name": "RangeSlv engages LoDog",
+        "on": "",
+        "plane": "front",
+        "ratio": [
+          1,
+          1
+        ],
+        "sense": -1,
+        "shaft": "",
+        "values": {},
+        "z_front": 0.0
+      },
+      {
+        "face_global": "",
+        "gears": [
+          "ModeSlv",
+          "FrontDog"
+        ],
+        "kind": "couple",
+        "modes": [
+          "4H",
+          "N",
+          "4L"
+        ],
+        "name": "ModeSlv engages FrontDog",
+        "on": "",
+        "plane": "front",
+        "ratio": [
+          1,
+          1
+        ],
+        "sense": -1,
+        "shaft": "",
+        "values": {},
+        "z_front": 0.0
+      }
+    ],
+    "meshes": [
+      [
+        "Sun",
+        "Pl"
+      ],
+      [
+        "Pl",
+        "Ring"
+      ]
+    ],
+    "modes": [
+      "2H",
+      "4H",
+      "N",
+      "4L"
+    ],
+    "name": "v2_TransferCase",
+    "part_template": "",
+    "revision": 0,
+    "shafts": [
+      {
+        "axis": "Z+",
+        "axis_name": "In Axis",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "line": "",
+        "shaft": "In",
+        "sigma": 1,
+        "x": 0.0,
+        "x_global": "",
+        "x_plane": "",
+        "x_side": "base",
+        "y": 0.0,
+        "y_global": "",
+        "y_plane": "",
+        "y_side": "base",
+        "z": 0.0,
+        "z_global": "",
+        "z_plane": "",
+        "z_side": ""
+      },
+      {
+        "axis": "Z+",
+        "axis_name": "Carrier Axis",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "line": "",
+        "shaft": "Carrier",
+        "sigma": 1,
+        "x": 0.0,
+        "x_global": "",
+        "x_plane": "",
+        "x_side": "base",
+        "y": 0.0,
+        "y_global": "",
+        "y_plane": "",
+        "y_side": "base",
+        "z": 0.0,
+        "z_global": "",
+        "z_plane": "",
+        "z_side": ""
+      },
+      {
+        "axis": "Z+",
+        "axis_name": "Ring Axis",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "line": "",
+        "shaft": "Ring",
+        "sigma": 1,
+        "x": 0.0,
+        "x_global": "",
+        "x_plane": "",
+        "x_side": "base",
+        "y": 0.0,
+        "y_global": "",
+        "y_plane": "",
+        "y_side": "base",
+        "z": 0.0,
+        "z_global": "",
+        "z_plane": "",
+        "z_side": ""
+      },
+      {
+        "axis": "Z+",
+        "axis_name": "Rear Axis",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "line": "",
+        "shaft": "Rear",
+        "sigma": 1,
+        "x": 0.0,
+        "x_global": "",
+        "x_plane": "",
+        "x_side": "base",
+        "y": 0.0,
+        "y_global": "",
+        "y_plane": "",
+        "y_side": "base",
+        "z": 0.0,
+        "z_global": "",
+        "z_plane": "",
+        "z_side": ""
+      },
+      {
+        "axis": "Z+",
+        "axis_name": "FrontDrv Axis",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "line": "",
+        "shaft": "FrontDrv",
+        "sigma": 1,
+        "x": 0.0,
+        "x_global": "",
+        "x_plane": "",
+        "x_side": "base",
+        "y": 0.0,
+        "y_global": "",
+        "y_plane": "",
+        "y_side": "base",
+        "z": 0.0,
+        "z_global": "",
+        "z_plane": "",
+        "z_side": ""
+      }
+    ],
+    "static_reason": "",
+    "unmated": [
+      [
+        "Pl copy 2",
+        "Ring"
+      ],
+      [
+        "Pl copy 3",
+        "Ring"
+      ]
+    ],
+    "updated": ""
+  },
+  "last_built": "2026-11-15T23:42:18Z",
+  "last_updated": "",
+  "link_schema_version": 6,
+  "mismatched": {},
+  "moved_from": [],
+  "own_digest": "",
+  "parts": [
+    {
+      "gears": [
+        "Sun"
+      ],
+      "kind": "spur",
+      "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Gear_m1.25_N29.SLDPRT",
+      "revision": 0,
+      "spec": {
+        "backlash": "",
+        "bore": "8",
+        "face_width": "10",
+        "fillet": "",
+        "groove": "",
+        "hand": "right",
+        "helix_angle": "",
+        "kind": "spur",
+        "mate_teeth": "",
+        "module": "1.25",
+        "name": "",
+        "pressure_angle": "20",
+        "profile_shift": "0",
+        "recipe": "",
+        "rim": "",
+        "shaft_angle": "90",
+        "teeth": "29",
+        "teeth_side": "external"
+      },
+      "trig": "degrees",
+      "variables": [
+        [
+          "No. of Teeth",
+          "29"
+        ],
+        [
+          "Module",
+          "1.25"
+        ],
+        [
+          "Bore Diameter",
+          "8"
+        ],
+        [
+          "Pressure Angle",
+          "20"
+        ],
+        [
+          "Outer Diameter",
+          "( \"No. of Teeth\" + 2 ) * \"Module\""
+        ],
+        [
+          "Pitch Diameter",
+          "\"No. of Teeth\" * \"Module\""
+        ],
+        [
+          "Backlash",
+          "0.3 * \"Module\""
+        ],
+        [
+          "Arc Length",
+          "( ( \"Module\" * pi ) / 2 + \"Backlash\" )"
+        ],
+        [
+          "Fillet Radius",
+          "0.38 * \"Module\""
+        ],
+        [
+          "Tooth Depth",
+          "IIF ( \"Module\" <= 1.25 , \"Module\" * 2.4 , \"Module\" * 2.25 )"
+        ],
+        [
+          "Face Width",
+          "10"
+        ],
+        [
+          "Root Diameter",
+          "\"Outer Diameter\" - 2 * \"Tooth Depth\""
+        ],
+        [
+          "Base Diameter",
+          "\"Pitch Diameter\" * cos ( \"Pressure Angle\" )"
+        ],
+        [
+          "Base Radius",
+          "\"Base Diameter\" / 2"
+        ],
+        [
+          "Tooth Thickness",
+          "\"Module\" * pi - \"Arc Length\""
+        ],
+        [
+          "Half Space Angle",
+          "( \"Arc Length\" / \"Pitch Diameter\" ) * 180 / pi"
+        ],
+        [
+          "Involute Fn",
+          "tan ( \"Pressure Angle\" ) - \"Pressure Angle\" * pi / 180"
+        ],
+        [
+          "Flank Offset",
+          "\"Arc Length\" / \"Pitch Diameter\" - \"Involute Fn\""
+        ],
+        [
+          "Tip Cap Diameter",
+          "\"Outer Diameter\" + 2 * \"Module\""
+        ],
+        [
+          "Flank Start Diameter",
+          "IIF ( \"Base Diameter\" >= ( \"Root Diameter\" + 3 * \"Fillet Radius\" ) , \"Base Diameter\" , \"Root Diameter\" + 3 * \"Fillet Radius\" )"
+        ],
+        [
+          "Involute t1",
+          "( abs ( ( \"Flank Start Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Involute t2",
+          "( abs ( ( \"Tip Cap Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Flank Arc Radius",
+          "( \"Pitch Diameter\" / 2 ) * sin ( \"Pressure Angle\" )"
+        ],
+        [
+          "Flank Centre Angle",
+          "\"Half Space Angle\" + \"Pressure Angle\""
+        ]
+      ]
+    },
+    {
+      "gears": [
+        "Pl"
+      ],
+      "kind": "spur",
+      "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Gear_m1.25_N13.SLDPRT",
+      "revision": 0,
+      "spec": {
+        "backlash": "",
+        "bore": "",
+        "face_width": "10",
+        "fillet": "",
+        "groove": "",
+        "hand": "right",
+        "helix_angle": "",
+        "kind": "spur",
+        "mate_teeth": "",
+        "module": "1.25",
+        "name": "",
+        "pressure_angle": "20",
+        "profile_shift": "0",
+        "recipe": "",
+        "rim": "",
+        "shaft_angle": "90",
+        "teeth": "13",
+        "teeth_side": "external"
+      },
+      "trig": "degrees",
+      "variables": [
+        [
+          "No. of Teeth",
+          "13"
+        ],
+        [
+          "Module",
+          "1.25"
+        ],
+        [
+          "Bore Diameter",
+          "0"
+        ],
+        [
+          "Pressure Angle",
+          "20"
+        ],
+        [
+          "Outer Diameter",
+          "( \"No. of Teeth\" + 2 ) * \"Module\""
+        ],
+        [
+          "Pitch Diameter",
+          "\"No. of Teeth\" * \"Module\""
+        ],
+        [
+          "Backlash",
+          "0.3 * \"Module\""
+        ],
+        [
+          "Arc Length",
+          "( ( \"Module\" * pi ) / 2 + \"Backlash\" )"
+        ],
+        [
+          "Fillet Radius",
+          "0.38 * \"Module\""
+        ],
+        [
+          "Tooth Depth",
+          "IIF ( \"Module\" <= 1.25 , \"Module\" * 2.4 , \"Module\" * 2.25 )"
+        ],
+        [
+          "Face Width",
+          "10"
+        ],
+        [
+          "Root Diameter",
+          "\"Outer Diameter\" - 2 * \"Tooth Depth\""
+        ],
+        [
+          "Base Diameter",
+          "\"Pitch Diameter\" * cos ( \"Pressure Angle\" )"
+        ],
+        [
+          "Base Radius",
+          "\"Base Diameter\" / 2"
+        ],
+        [
+          "Tooth Thickness",
+          "\"Module\" * pi - \"Arc Length\""
+        ],
+        [
+          "Half Space Angle",
+          "( \"Arc Length\" / \"Pitch Diameter\" ) * 180 / pi"
+        ],
+        [
+          "Involute Fn",
+          "tan ( \"Pressure Angle\" ) - \"Pressure Angle\" * pi / 180"
+        ],
+        [
+          "Flank Offset",
+          "\"Arc Length\" / \"Pitch Diameter\" - \"Involute Fn\""
+        ],
+        [
+          "Tip Cap Diameter",
+          "\"Outer Diameter\" + 2 * \"Module\""
+        ],
+        [
+          "Flank Start Diameter",
+          "IIF ( \"Base Diameter\" >= ( \"Root Diameter\" + 3 * \"Fillet Radius\" ) , \"Base Diameter\" , \"Root Diameter\" + 3 * \"Fillet Radius\" )"
+        ],
+        [
+          "Involute t1",
+          "( abs ( ( \"Flank Start Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Involute t2",
+          "( abs ( ( \"Tip Cap Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Flank Arc Radius",
+          "( \"Pitch Diameter\" / 2 ) * sin ( \"Pressure Angle\" )"
+        ],
+        [
+          "Flank Centre Angle",
+          "\"Half Space Angle\" + \"Pressure Angle\""
+        ]
+      ]
+    },
+    {
+      "gears": [
+        "Ring"
+      ],
+      "kind": "spur",
+      "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Ring_m1.25_N55.SLDPRT",
+      "revision": 0,
+      "spec": {
+        "backlash": "",
+        "bore": "",
+        "face_width": "10",
+        "fillet": "",
+        "groove": "",
+        "hand": "right",
+        "helix_angle": "",
+        "kind": "spur",
+        "mate_teeth": "",
+        "module": "1.25",
+        "name": "",
+        "pressure_angle": "20",
+        "profile_shift": "0",
+        "recipe": "",
+        "rim": "",
+        "shaft_angle": "90",
+        "teeth": "55",
+        "teeth_side": "internal"
+      },
+      "trig": "degrees",
+      "variables": [
+        [
+          "No. of Teeth",
+          "55"
+        ],
+        [
+          "Module",
+          "1.25"
+        ],
+        [
+          "Pressure Angle",
+          "20"
+        ],
+        [
+          "Inner Diameter",
+          "( \"No. of Teeth\" - 2 ) * \"Module\""
+        ],
+        [
+          "Pitch Diameter",
+          "\"No. of Teeth\" * \"Module\""
+        ],
+        [
+          "Backlash",
+          "0.3 * \"Module\""
+        ],
+        [
+          "Arc Length",
+          "( ( \"Module\" * pi ) / 2 + \"Backlash\" )"
+        ],
+        [
+          "Fillet Radius",
+          "0.15 * \"Module\""
+        ],
+        [
+          "Tooth Depth",
+          "IIF ( \"Module\" <= 1.25 , \"Module\" * 2.4 , \"Module\" * 2.25 )"
+        ],
+        [
+          "Face Width",
+          "10"
+        ],
+        [
+          "Root Diameter",
+          "\"Inner Diameter\" + 2 * \"Tooth Depth\""
+        ],
+        [
+          "Rim Diameter",
+          "\"Root Diameter\" + 6 * \"Module\""
+        ],
+        [
+          "Base Diameter",
+          "\"Pitch Diameter\" * cos ( \"Pressure Angle\" )"
+        ],
+        [
+          "Base Radius",
+          "\"Base Diameter\" / 2"
+        ],
+        [
+          "Tooth Thickness",
+          "\"Module\" * pi - \"Arc Length\""
+        ],
+        [
+          "Half Space Angle",
+          "( \"Arc Length\" / \"Pitch Diameter\" ) * 180 / pi"
+        ],
+        [
+          "Involute Fn",
+          "tan ( \"Pressure Angle\" ) - \"Pressure Angle\" * pi / 180"
+        ],
+        [
+          "Flank Offset",
+          "0 - \"Arc Length\" / \"Pitch Diameter\" - \"Involute Fn\""
+        ],
+        [
+          "Tip Cap Diameter",
+          "\"Inner Diameter\" - 2 * \"Module\""
+        ],
+        [
+          "Flank Start Diameter",
+          "IIF ( \"Base Diameter\" >= ( \"Inner Diameter\" - \"Module\" ) , \"Base Diameter\" , \"Inner Diameter\" - \"Module\" )"
+        ],
+        [
+          "Flank End Diameter",
+          "\"Root Diameter\" - 3 * \"Fillet Radius\""
+        ],
+        [
+          "Involute t1",
+          "( abs ( ( \"Flank Start Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Involute t2",
+          "( abs ( ( \"Flank End Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Flank Arc Radius",
+          "( \"Pitch Diameter\" / 2 ) * sin ( \"Pressure Angle\" )"
+        ],
+        [
+          "Flank Centre Angle",
+          "\"Half Space Angle\" - \"Pressure Angle\""
+        ]
+      ]
+    },
+    {
+      "gears": [
+        "InDog"
+      ],
+      "kind": "dog",
+      "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_InDog.SLDPRT",
+      "revision": 0,
+      "spec": {
+        "backlash": "",
+        "bore": "8",
+        "face_width": "5",
+        "fillet": "",
+        "groove": "",
+        "hand": "right",
+        "helix_angle": "",
+        "kind": "dog",
+        "mate_teeth": "",
+        "module": "1.25",
+        "name": "v2_InDog",
+        "pressure_angle": "20",
+        "profile_shift": "0",
+        "recipe": "",
+        "rim": "",
+        "shaft_angle": "90",
+        "teeth": "17",
+        "teeth_side": "external"
+      },
+      "trig": "degrees",
+      "variables": [
+        [
+          "No. of Teeth",
+          "17"
+        ],
+        [
+          "Module",
+          "1.25"
+        ],
+        [
+          "Bore Diameter",
+          "8"
+        ],
+        [
+          "Pressure Angle",
+          "20"
+        ],
+        [
+          "Outer Diameter",
+          "( \"No. of Teeth\" + 2 ) * \"Module\""
+        ],
+        [
+          "Pitch Diameter",
+          "\"No. of Teeth\" * \"Module\""
+        ],
+        [
+          "Backlash",
+          "0.3 * \"Module\""
+        ],
+        [
+          "Arc Length",
+          "( ( \"Module\" * pi ) / 2 + \"Backlash\" )"
+        ],
+        [
+          "Fillet Radius",
+          "0.38 * \"Module\""
+        ],
+        [
+          "Tooth Depth",
+          "IIF ( \"Module\" <= 1.25 , \"Module\" * 2.4 , \"Module\" * 2.25 )"
+        ],
+        [
+          "Face Width",
+          "5"
+        ],
+        [
+          "Root Diameter",
+          "\"Outer Diameter\" - 2 * \"Tooth Depth\""
+        ],
+        [
+          "Base Diameter",
+          "\"Pitch Diameter\" * cos ( \"Pressure Angle\" )"
+        ],
+        [
+          "Base Radius",
+          "\"Base Diameter\" / 2"
+        ],
+        [
+          "Tooth Thickness",
+          "\"Module\" * pi - \"Arc Length\""
+        ],
+        [
+          "Half Space Angle",
+          "( \"Arc Length\" / \"Pitch Diameter\" ) * 180 / pi"
+        ],
+        [
+          "Involute Fn",
+          "tan ( \"Pressure Angle\" ) - \"Pressure Angle\" * pi / 180"
+        ],
+        [
+          "Flank Offset",
+          "\"Arc Length\" / \"Pitch Diameter\" - \"Involute Fn\""
+        ],
+        [
+          "Tip Cap Diameter",
+          "\"Outer Diameter\" + 2 * \"Module\""
+        ],
+        [
+          "Flank Start Diameter",
+          "IIF ( \"Base Diameter\" >= ( \"Root Diameter\" + 3 * \"Fillet Radius\" ) , \"Base Diameter\" , \"Root Diameter\" + 3 * \"Fillet Radius\" )"
+        ],
+        [
+          "Involute t1",
+          "( abs ( ( \"Flank Start Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Involute t2",
+          "( abs ( ( \"Tip Cap Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Flank Arc Radius",
+          "( \"Pitch Diameter\" / 2 ) * sin ( \"Pressure Angle\" )"
+        ],
+        [
+          "Flank Centre Angle",
+          "\"Half Space Angle\" + \"Pressure Angle\""
+        ]
+      ]
+    },
+    {
+      "gears": [
+        "LoDog"
+      ],
+      "kind": "dog",
+      "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_LoDog.SLDPRT",
+      "revision": 0,
+      "spec": {
+        "backlash": "",
+        "bore": "10",
+        "face_width": "5",
+        "fillet": "",
+        "groove": "",
+        "hand": "right",
+        "helix_angle": "",
+        "kind": "dog",
+        "mate_teeth": "",
+        "module": "1.25",
+        "name": "v2_LoDog",
+        "pressure_angle": "20",
+        "profile_shift": "0",
+        "recipe": "",
+        "rim": "",
+        "shaft_angle": "90",
+        "teeth": "17",
+        "teeth_side": "external"
+      },
+      "trig": "degrees",
+      "variables": [
+        [
+          "No. of Teeth",
+          "17"
+        ],
+        [
+          "Module",
+          "1.25"
+        ],
+        [
+          "Bore Diameter",
+          "10"
+        ],
+        [
+          "Pressure Angle",
+          "20"
+        ],
+        [
+          "Outer Diameter",
+          "( \"No. of Teeth\" + 2 ) * \"Module\""
+        ],
+        [
+          "Pitch Diameter",
+          "\"No. of Teeth\" * \"Module\""
+        ],
+        [
+          "Backlash",
+          "0.3 * \"Module\""
+        ],
+        [
+          "Arc Length",
+          "( ( \"Module\" * pi ) / 2 + \"Backlash\" )"
+        ],
+        [
+          "Fillet Radius",
+          "0.38 * \"Module\""
+        ],
+        [
+          "Tooth Depth",
+          "IIF ( \"Module\" <= 1.25 , \"Module\" * 2.4 , \"Module\" * 2.25 )"
+        ],
+        [
+          "Face Width",
+          "5"
+        ],
+        [
+          "Root Diameter",
+          "\"Outer Diameter\" - 2 * \"Tooth Depth\""
+        ],
+        [
+          "Base Diameter",
+          "\"Pitch Diameter\" * cos ( \"Pressure Angle\" )"
+        ],
+        [
+          "Base Radius",
+          "\"Base Diameter\" / 2"
+        ],
+        [
+          "Tooth Thickness",
+          "\"Module\" * pi - \"Arc Length\""
+        ],
+        [
+          "Half Space Angle",
+          "( \"Arc Length\" / \"Pitch Diameter\" ) * 180 / pi"
+        ],
+        [
+          "Involute Fn",
+          "tan ( \"Pressure Angle\" ) - \"Pressure Angle\" * pi / 180"
+        ],
+        [
+          "Flank Offset",
+          "\"Arc Length\" / \"Pitch Diameter\" - \"Involute Fn\""
+        ],
+        [
+          "Tip Cap Diameter",
+          "\"Outer Diameter\" + 2 * \"Module\""
+        ],
+        [
+          "Flank Start Diameter",
+          "IIF ( \"Base Diameter\" >= ( \"Root Diameter\" + 3 * \"Fillet Radius\" ) , \"Base Diameter\" , \"Root Diameter\" + 3 * \"Fillet Radius\" )"
+        ],
+        [
+          "Involute t1",
+          "( abs ( ( \"Flank Start Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Involute t2",
+          "( abs ( ( \"Tip Cap Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Flank Arc Radius",
+          "( \"Pitch Diameter\" / 2 ) * sin ( \"Pressure Angle\" )"
+        ],
+        [
+          "Flank Centre Angle",
+          "\"Half Space Angle\" + \"Pressure Angle\""
+        ]
+      ]
+    },
+    {
+      "gears": [
+        "RangeSlv"
+      ],
+      "kind": "sleeve",
+      "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Sleeve_m1.25_N17.SLDPRT",
+      "revision": 0,
+      "spec": {
+        "backlash": "",
+        "bore": "",
+        "face_width": "10",
+        "fillet": "",
+        "groove": "",
+        "hand": "right",
+        "helix_angle": "",
+        "kind": "sleeve",
+        "mate_teeth": "",
+        "module": "1.25",
+        "name": "",
+        "pressure_angle": "20",
+        "profile_shift": "0",
+        "recipe": "",
+        "rim": "",
+        "shaft_angle": "90",
+        "teeth": "17",
+        "teeth_side": "internal"
+      },
+      "trig": "degrees",
+      "variables": [
+        [
+          "No. of Teeth",
+          "17"
+        ],
+        [
+          "Module",
+          "1.25"
+        ],
+        [
+          "Pressure Angle",
+          "20"
+        ],
+        [
+          "Inner Diameter",
+          "( \"No. of Teeth\" - 2 ) * \"Module\""
+        ],
+        [
+          "Pitch Diameter",
+          "\"No. of Teeth\" * \"Module\""
+        ],
+        [
+          "Backlash",
+          "0.3 * \"Module\""
+        ],
+        [
+          "Arc Length",
+          "( ( \"Module\" * pi ) / 2 + \"Backlash\" )"
+        ],
+        [
+          "Fillet Radius",
+          "0.15 * \"Module\""
+        ],
+        [
+          "Tooth Depth",
+          "IIF ( \"Module\" <= 1.25 , \"Module\" * 2.4 , \"Module\" * 2.25 )"
+        ],
+        [
+          "Face Width",
+          "10"
+        ],
+        [
+          "Root Diameter",
+          "\"Inner Diameter\" + 2 * \"Tooth Depth\""
+        ],
+        [
+          "Rim Diameter",
+          "\"Root Diameter\" + 6 * \"Module\""
+        ],
+        [
+          "Base Diameter",
+          "\"Pitch Diameter\" * cos ( \"Pressure Angle\" )"
+        ],
+        [
+          "Base Radius",
+          "\"Base Diameter\" / 2"
+        ],
+        [
+          "Tooth Thickness",
+          "\"Module\" * pi - \"Arc Length\""
+        ],
+        [
+          "Half Space Angle",
+          "( \"Arc Length\" / \"Pitch Diameter\" ) * 180 / pi"
+        ],
+        [
+          "Involute Fn",
+          "tan ( \"Pressure Angle\" ) - \"Pressure Angle\" * pi / 180"
+        ],
+        [
+          "Flank Offset",
+          "0 - \"Arc Length\" / \"Pitch Diameter\" - \"Involute Fn\""
+        ],
+        [
+          "Tip Cap Diameter",
+          "\"Inner Diameter\" - 2 * \"Module\""
+        ],
+        [
+          "Flank Start Diameter",
+          "IIF ( \"Base Diameter\" >= ( \"Inner Diameter\" - \"Module\" ) , \"Base Diameter\" , \"Inner Diameter\" - \"Module\" )"
+        ],
+        [
+          "Flank End Diameter",
+          "\"Root Diameter\" - 3 * \"Fillet Radius\""
+        ],
+        [
+          "Involute t1",
+          "( abs ( ( \"Flank Start Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Involute t2",
+          "( abs ( ( \"Flank End Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Flank Arc Radius",
+          "( \"Pitch Diameter\" / 2 ) * sin ( \"Pressure Angle\" )"
+        ],
+        [
+          "Flank Centre Angle",
+          "\"Half Space Angle\" - \"Pressure Angle\""
+        ]
+      ]
+    },
+    {
+      "gears": [
+        "FrontDog"
+      ],
+      "kind": "dog",
+      "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Dog_m1.25_N20.SLDPRT",
+      "revision": 0,
+      "spec": {
+        "backlash": "",
+        "bore": "14",
+        "face_width": "5",
+        "fillet": "",
+        "groove": "",
+        "hand": "right",
+        "helix_angle": "",
+        "kind": "dog",
+        "mate_teeth": "",
+        "module": "1.25",
+        "name": "",
+        "pressure_angle": "20",
+        "profile_shift": "0",
+        "recipe": "",
+        "rim": "",
+        "shaft_angle": "90",
+        "teeth": "20",
+        "teeth_side": "external"
+      },
+      "trig": "degrees",
+      "variables": [
+        [
+          "No. of Teeth",
+          "20"
+        ],
+        [
+          "Module",
+          "1.25"
+        ],
+        [
+          "Bore Diameter",
+          "14"
+        ],
+        [
+          "Pressure Angle",
+          "20"
+        ],
+        [
+          "Outer Diameter",
+          "( \"No. of Teeth\" + 2 ) * \"Module\""
+        ],
+        [
+          "Pitch Diameter",
+          "\"No. of Teeth\" * \"Module\""
+        ],
+        [
+          "Backlash",
+          "0.3 * \"Module\""
+        ],
+        [
+          "Arc Length",
+          "( ( \"Module\" * pi ) / 2 + \"Backlash\" )"
+        ],
+        [
+          "Fillet Radius",
+          "0.38 * \"Module\""
+        ],
+        [
+          "Tooth Depth",
+          "IIF ( \"Module\" <= 1.25 , \"Module\" * 2.4 , \"Module\" * 2.25 )"
+        ],
+        [
+          "Face Width",
+          "5"
+        ],
+        [
+          "Root Diameter",
+          "\"Outer Diameter\" - 2 * \"Tooth Depth\""
+        ],
+        [
+          "Base Diameter",
+          "\"Pitch Diameter\" * cos ( \"Pressure Angle\" )"
+        ],
+        [
+          "Base Radius",
+          "\"Base Diameter\" / 2"
+        ],
+        [
+          "Tooth Thickness",
+          "\"Module\" * pi - \"Arc Length\""
+        ],
+        [
+          "Half Space Angle",
+          "( \"Arc Length\" / \"Pitch Diameter\" ) * 180 / pi"
+        ],
+        [
+          "Involute Fn",
+          "tan ( \"Pressure Angle\" ) - \"Pressure Angle\" * pi / 180"
+        ],
+        [
+          "Flank Offset",
+          "\"Arc Length\" / \"Pitch Diameter\" - \"Involute Fn\""
+        ],
+        [
+          "Tip Cap Diameter",
+          "\"Outer Diameter\" + 2 * \"Module\""
+        ],
+        [
+          "Flank Start Diameter",
+          "IIF ( \"Base Diameter\" >= ( \"Root Diameter\" + 3 * \"Fillet Radius\" ) , \"Base Diameter\" , \"Root Diameter\" + 3 * \"Fillet Radius\" )"
+        ],
+        [
+          "Involute t1",
+          "( abs ( ( \"Flank Start Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Involute t2",
+          "( abs ( ( \"Tip Cap Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Flank Arc Radius",
+          "( \"Pitch Diameter\" / 2 ) * sin ( \"Pressure Angle\" )"
+        ],
+        [
+          "Flank Centre Angle",
+          "\"Half Space Angle\" + \"Pressure Angle\""
+        ]
+      ]
+    },
+    {
+      "gears": [
+        "ModeSlv"
+      ],
+      "kind": "sleeve",
+      "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Sleeve_m1.25_N20.SLDPRT",
+      "revision": 0,
+      "spec": {
+        "backlash": "",
+        "bore": "",
+        "face_width": "10",
+        "fillet": "",
+        "groove": "",
+        "hand": "right",
+        "helix_angle": "",
+        "kind": "sleeve",
+        "mate_teeth": "",
+        "module": "1.25",
+        "name": "",
+        "pressure_angle": "20",
+        "profile_shift": "0",
+        "recipe": "",
+        "rim": "",
+        "shaft_angle": "90",
+        "teeth": "20",
+        "teeth_side": "internal"
+      },
+      "trig": "degrees",
+      "variables": [
+        [
+          "No. of Teeth",
+          "20"
+        ],
+        [
+          "Module",
+          "1.25"
+        ],
+        [
+          "Pressure Angle",
+          "20"
+        ],
+        [
+          "Inner Diameter",
+          "( \"No. of Teeth\" - 2 ) * \"Module\""
+        ],
+        [
+          "Pitch Diameter",
+          "\"No. of Teeth\" * \"Module\""
+        ],
+        [
+          "Backlash",
+          "0.3 * \"Module\""
+        ],
+        [
+          "Arc Length",
+          "( ( \"Module\" * pi ) / 2 + \"Backlash\" )"
+        ],
+        [
+          "Fillet Radius",
+          "0.15 * \"Module\""
+        ],
+        [
+          "Tooth Depth",
+          "IIF ( \"Module\" <= 1.25 , \"Module\" * 2.4 , \"Module\" * 2.25 )"
+        ],
+        [
+          "Face Width",
+          "10"
+        ],
+        [
+          "Root Diameter",
+          "\"Inner Diameter\" + 2 * \"Tooth Depth\""
+        ],
+        [
+          "Rim Diameter",
+          "\"Root Diameter\" + 6 * \"Module\""
+        ],
+        [
+          "Base Diameter",
+          "\"Pitch Diameter\" * cos ( \"Pressure Angle\" )"
+        ],
+        [
+          "Base Radius",
+          "\"Base Diameter\" / 2"
+        ],
+        [
+          "Tooth Thickness",
+          "\"Module\" * pi - \"Arc Length\""
+        ],
+        [
+          "Half Space Angle",
+          "( \"Arc Length\" / \"Pitch Diameter\" ) * 180 / pi"
+        ],
+        [
+          "Involute Fn",
+          "tan ( \"Pressure Angle\" ) - \"Pressure Angle\" * pi / 180"
+        ],
+        [
+          "Flank Offset",
+          "0 - \"Arc Length\" / \"Pitch Diameter\" - \"Involute Fn\""
+        ],
+        [
+          "Tip Cap Diameter",
+          "\"Inner Diameter\" - 2 * \"Module\""
+        ],
+        [
+          "Flank Start Diameter",
+          "IIF ( \"Base Diameter\" >= ( \"Inner Diameter\" - \"Module\" ) , \"Base Diameter\" , \"Inner Diameter\" - \"Module\" )"
+        ],
+        [
+          "Flank End Diameter",
+          "\"Root Diameter\" - 3 * \"Fillet Radius\""
+        ],
+        [
+          "Involute t1",
+          "( abs ( ( \"Flank Start Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Involute t2",
+          "( abs ( ( \"Flank End Diameter\" / \"Base Diameter\" ) ^ 2 - 1 ) ) ^ 0.5"
+        ],
+        [
+          "Flank Arc Radius",
+          "( \"Pitch Diameter\" / 2 ) * sin ( \"Pressure Angle\" )"
+        ],
+        [
+          "Flank Centre Angle",
+          "\"Half Space Angle\" - \"Pressure Angle\""
+        ]
+      ]
+    }
+  ],
+  "pending": [],
+  "pending_for": "",
+  "recalc": false,
+  "schema_version": 1,
+  "unsaved": {},
+  "workbook": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_TransferCase.xlsx",
+  "written_by": "gear-generator 0.3.2"
+}

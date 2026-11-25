@@ -1,6 +1,6 @@
 {
   "document": {
-    "path": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Dog_m1.25_N20.SLDPRT",
+    "path": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\Dog_m1.25_N20.SLDPRT",
     "title": "Dog_m1.25_N20.SLDPRT"
   },
   "gear": {
@@ -9,9 +9,9 @@
     "created": "2026-11-15T23:42:18Z",
     "derived": {
       "alpha": 0.3490658503988659,
-      "backlash": 0.375,
+      "backlash": 0.3,
       "backlash_typed": false,
-      "bore": 14.0,
+      "bore": 8.35,
       "d": 25.0,
       "da": 27.5,
       "db": 23.49231551964771,
@@ -26,20 +26,21 @@
       "inv_alpha": 0.014904383867336446,
       "module": 1.25,
       "n_min": 17.09726434082606,
+      "nozzle": 0.4,
       "p": 3.9269908169872414,
-      "phi": 0.07863543247240838,
+      "phi": 0.07563543247240838,
       "pressure_angle_deg": 20.0,
-      "psi_s": 0.09353981633974483,
-      "psi_t": 0.06353981633974483,
-      "s": 1.5884954084936207,
+      "psi_s": 0.09053981633974482,
+      "psi_t": 0.06653981633974483,
+      "s": 1.6634954084936209,
       "shift": 0.0,
-      "space": 2.3384954084936207,
+      "space": 2.2634954084936205,
       "t1": 0.0,
       "t2": 0.7942059161588909,
       "t_max": 0.6085178231017319,
       "teeth": 20,
       "tip_cap_d": 30.0,
-      "tip_thickness": 0.4560999807140548
+      "tip_thickness": 0.5385999807140549
     },
     "dimensions": [
       "Bore@Bore Sketch",
@@ -61,7 +62,7 @@
     ],
     "kind": "dog",
     "last_built": "2026-11-15T23:42:18Z",
-    "last_updated": "",
+    "last_updated": "2026-11-25T04:07:23Z",
     "manual_steps": [
       "Assign a material to Dog_m1.25_N20; the build leaves it unset."
     ],
@@ -72,7 +73,7 @@
     "record_id": "gear-cf8a1809",
     "spec": {
       "backlash": "",
-      "bore": "14",
+      "bore": "8.35",
       "face_width": "5",
       "fillet": "",
       "groove": "",
@@ -82,7 +83,9 @@
       "mate_teeth": "",
       "module": "1.25",
       "name": "",
+      "nozzle": "",
       "pressure_angle": "20",
+      "process": "printed",
       "profile_shift": "0",
       "recipe": "",
       "rim": "",
@@ -104,7 +107,7 @@
       ],
       [
         "Bore Diameter",
-        "14"
+        "8.35"
       ],
       [
         "Pressure Angle",
@@ -120,7 +123,7 @@
       ],
       [
         "Backlash",
-        "0.3 * \"Module\""
+        "IIF ( \"Module\" <= 1 , 0.3 * \"Module\" , 0.3 )"
       ],
       [
         "Arc Length",
@@ -191,11 +194,11 @@
         "\"Half Space Angle\" + \"Pressure Angle\""
       ]
     ],
-    "workbook": "C:\\Users\\M0obo\\OneDrive\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v1_TransferCase.xlsx",
+    "workbook": "C:\\Users\\M0obo\\Desktop\\MIE243\\v2-chassis\\Transfer Case\\v2_TransferCase.xlsx",
     "workbook_gears": [
       "FrontDog"
     ]
   },
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "writtenBy": "gear-generator 0.3.2"
 }
